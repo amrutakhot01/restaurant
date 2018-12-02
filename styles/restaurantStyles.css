@@ -1,0 +1,19 @@
+/*
+Name: Amruta
+Date Created: Nov 24,2018
+Most recent revision: 
+*/
+
+
+header ,footer{
+    background-color: #5b7d87;
+    color: #fef9ff;
+    height: 70px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+}

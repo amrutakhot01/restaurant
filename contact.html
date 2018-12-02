@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+Name: Amruta
+date Created: 11/03/2018
+Most recent revision:
+ -->
+<html lang ="en">
+	
+	<head>
+		<title>Amruta's Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="styles/restaurantStyles.css">
+	</head>
+
+	<body>
+		<header>
+		<h1>Amruta's Restaurant</h1>
+		
+
+		<nav>
+
+		<hr/>
+		<a href="home.html">Home</a>
+		<a href="menu.html">Menu</a>
+		<a href="contact.html">Contact Us</a>
+
+        <hr/>
+		</nav>
+
+		</header>
+
+
+        <section>
+
+       		 <article >
+       			<form action="submit.html" method="POST"> 
+               
+               <label for ="name">Name: </label>
+               <input type="text" id="name" name="name"><br>
+
+               <label for ="email">Email: </label>
+               <input type="text" id="email" name="email"><br>
+
+               <label for ="phone">Phone: </label>
+               <input type="text" id="phone" name="phone"><br>
+
+               <label for ="reason">Reason for Inquiry: </label>
+               <select id="reason" name="reason">
+
+               	<option value="catering" selected>Catering</option>
+               	<option value="private_party">Private Party</option>
+               	<option value="feedback">Feedback</option>
+               	<option value="other">Other</option> 
+
+               </select><br>
+ 				
+ 				<label for ="info">Additional Information: </label>
+ 				<textarea id="info" name="info"></textarea> <br>
+
+ 				<label for ="visit">Have you been to the restaurant?</label>
+ 				<input type="radio" name="visit" id="yes" value="yes">
+ 				<label for="yes">Yes</label>
+ 				<input type="radio" name="visit" id="no" value="no">
+ 				<label for="no">No</label> <br>
+
+
+              <label for="contact">Best days to contact you</label>
+              <input type="checkbox" name="contact" id="monday" value="monday">M
+               <input type="checkbox" name="contact" id="tuesday" value="tuesday">T
+                <input type="checkbox" name="contact" id="wednesday" value="wednesday">W
+                 <input type="checkbox" name="contact" id="thursday" value="thursday">TH
+                  <input type="checkbox" name="contact" id="friday" value="friday">F<br>
+
+
+                  <input type="submit" name="submit" value="Send Submit">
+
+
+
+
+
+
+
+
+       			</form>
+       		 </article>	
+
+        </section>
+
+        <footer>
+
+        	 <hr>
+        	<p>12345 Fashion Island Ave, Foster City, CA, 94476</p>
+        	<p>12345678901</p>
+    
+        </footer>
+
+
+	</body>
+
+</html>
